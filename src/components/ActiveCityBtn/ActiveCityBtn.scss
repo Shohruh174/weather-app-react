@@ -1,0 +1,20 @@
+.city-switcher-btn {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    background-color: #984063;
+    padding: 20px 40px;
+    outline: none;
+    border: none;
+    margin: 20px 0;
+    border-radius: 7px;
+    color: white;
+    transition: all ease 0.6s;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 0px rgba(37, 37, 37);
+    &.active {
+        background-color: #41436a;
+        box-shadow: 10px 10px 10px 0px black;
+    }
+}

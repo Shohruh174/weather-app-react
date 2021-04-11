@@ -1,0 +1,39 @@
+body {
+    background-color: #2D4849FF;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1140px;
+    box-sizing: border-box;
+}
+
+.main-weather {
+    text-align: center;
+    color: white;
+    .weather-icon {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .weather-value {
+        color: #A38B3DFF;
+    }
+    .weather-city-name {
+        color: #121213;
+    }
+}

@@ -1,0 +1,9 @@
+.city-switcher {
+    margin-bottom: 50px;
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transition: all ease 0.5s;
+    }
+}
